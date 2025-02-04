@@ -1,0 +1,35 @@
+main {
+    padding: 0 20px;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+h2 {
+    color: #333;
+}
+
+
+#about-skills ul, #about-projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about-skills li, #about-projects li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#about-projects a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#about-projects a:hover {
+    text-decoration: underline;
+}

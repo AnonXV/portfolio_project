@@ -1,6 +1,6 @@
 
   /* 
-  I'd like to note that chatGPT helped with some of the styling
+  I'd like to note that chatGPT helped with most of the styling that actually looks good
   */
 *, html {
     margin: 0;
@@ -54,43 +54,7 @@ nav a:hover::after {
 body {
     padding-top: 40px;
 }
-#PageHome {
-    position: relative;
-    display: block;
-    margin-top: -40px;
 
-}
-#homeMainImg {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-#PageHome h2 {
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    color: white;
-    font-size: 32px;
-}
-#home_aboutB {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 15px 30px;
-    border: 2px solid white;
-    font-size: 26px;
-    border-radius: 5px;
-    transition: 0.3s ease-in-out;
-    box-shadow: 0px 0px 10px transparent;
-}
-#home_aboutB:hover {
-    background-color: rgba(0, 0, 0, 0.9);
-    box-shadow: 0px 0px 15px white;
-}
 .modal {
     display: none;
     position: fixed;
@@ -118,18 +82,30 @@ body {
     cursor: pointer;
 }
 
-
-
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
     background-color: black;
     color: white;
-    padding: 10px 0;
-    
 }
 footer p {
     font-size: 12px;
-    margin-left: 8%;
+    margin: 0;
 }
+footer div {
+    background-color: white;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    color: black;
+}
+
 a {
     color: silver;
     text-decoration: none;
