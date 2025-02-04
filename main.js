@@ -34,3 +34,12 @@ function updateTopMessage() {
 
 loadHTML('header', 'header.html', updateTopMessage);
 loadHTML('footer', 'footer.html');
+
+function toggleDropdown(id) {
+    const dropdown = document.getElementById(id);
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+}

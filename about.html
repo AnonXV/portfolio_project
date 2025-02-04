@@ -13,42 +13,64 @@
 
     <main>
         <h1>
-            IDK
+            So, the homepage didn't explain enough for you?
         </h1>
-        <section id="about-intro">
+        <p>
+            Fine, here's a bit more.
+        </p>
+        <section>
             <h2>About This Site</h2>
             <p>
-                Greetings, if you're reading this, you're either at my subpage on KA, or found my repo on GitHub. This site was me multi-tasking on both a school project and updating my subpage, so if something seems off it's probably because I forgot to change it from the other version.
+                If you're reading this, you're either at my subpage on KA, or found my repo on GitHub. This site was me multi-tasking on both a school project and updating my subpage, so if something seems off it's probably because I forgot to change it from the other version.
             </p>
         </section>
 
-        <section id="about-me">
+        <section>
             <h2>About Me</h2>
             <p>
                 Not much is known about me, but clearly I exist. Or, at least, something wants you to believe that I exist.
             </p>
         </section>
 
-        <section id="about-skills">
-            <h2>Skills</h2>
+        <section>
+            <h2>Questionable Skills</h2>
+            <p>
+                I can do a few things here and there...
+            </p>
             <ul>
-                <li>Web Development</li>
-                <li>JavaScript</li>
-                <li>HTML & CSS</li>
-                <li>React</li>
-                <li>Node.js</li>
+                <li>KAPJS (basically all I do on KA, along w. math)</li>
+                <li>I guess I know some html now too, but this is my first webpage</li>
+                <li>You know what, just check my projects, I'll let you decide</li>
             </ul>
         </section>
 
-        <section id="about-projects">
-            <h2>Projects</h2>
+        <section id="project-highlights">
+            <h2>Project Highlights</h2>
             <p>
-                Here are some of the projects I've worked on:
+                These are a few of my projects that I decided to give more recognition.
             </p>
             <ul>
-                <li><a href="project1.html">Project 1</a></li>
-                <li><a href="project2.html">Project 2</a></li>
-                <li><a href="project3.html">Project 3</a></li>
+                <li onclick="toggleDropdown('dropdown-v-cube')">
+                    <h3><a href="https://www.khanacademy.org/computer-programming/vertex-cube-250/5663139996549120" target="_blank">Vertex Cube - 250</a></h3>
+                    (click for more info)
+                    <div id="dropdown-v-cube" class="dropdown-content">
+                        <p>Literally just a cube made from vertices programmed in 250 characters. It doesn't look like much, but it took way longer than it should have to condense it so far.</p>
+                    </div>
+                </li>
+                <li onclick="toggleDropdown('dropdown-raycaster')">
+                    <h3><a href="https://www.khanacademy.org/computer-programming/raycaster-for-the-celebration/4521225909354496" target="_blank">Raycaster</a></h3>
+                    (click for more info)
+                    <div id="dropdown-raycaster" class="dropdown-content">
+                        <p>This was the winner of the 50th KA Coding Contest. Unlike the cube above, which took me a couple of days, I spent a couple months on this one.</p>
+                    </div>
+                </li>
+                <li onclick="toggleDropdown('dropdown-penrose-square')">
+                    <h3><a href="https://www.khanacademy.org/computer-programming/penrose-square-animated/5828164397613056" target="_blank">Penrose Square</a></h3>
+                    (click for more info)
+                    <div id="dropdown-penrose-square" class="dropdown-content">
+                        <p>Another simple animation, I made this at a different school. I don't remember how long it took me to make this one, but if the first was days, the other months, I'll say this took weeks.</p>
+                    </div>
+                </li>
             </ul>
         </section>
     </main>
